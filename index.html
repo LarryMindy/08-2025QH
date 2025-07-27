@@ -11,15 +11,18 @@ body {
   background: linear-gradient(to right, #9C2831, #9C2831);
   padding: 20px;
   color: #2c2c2c;
-}
-
 .language-switch {
-  font-size: 0.9em;
-  padding: 8px 12px;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
   color: white;
-  background-color: #9C2831;
-  border-radius: 4px;
+  border-radius: 20px;
   text-decoration: none;
+  font-weight: bold;
+  margin: 10px 0 20px 10px;
+}
+.language-switch:hover {
+  background-color: #444;
 }
 
     .quiz-container {
@@ -127,7 +130,9 @@ body {
  
 
 <div class="quiz-container">
-    <img src="August Quiz Banner H.jpg" alt="חידון אוגוסט" class="banner">
+   <img src="August Quiz Banner H.jpg" alt="חידון אוגוסט" class="banner">
+
+<a href="https://larrymindy.github.io/08-2025Q/" class="language-switch">English</a>
     <h1>חידון אוגוסט של לארי ומינדי<br>תחנות מוזיקליות בשנות ה-60 וה-70</h1>
     <p id="score">ציון: 0</p>
     <div id="quiz"></div>
