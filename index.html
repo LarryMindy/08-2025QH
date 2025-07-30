@@ -12,7 +12,7 @@ body {
   padding: 20px;
   color: #2c2c2c;
 }
-  
+
 .language-switch {
   display: inline-block;
   padding: 8px 16px;
@@ -335,7 +335,8 @@ body {
           if (i === q.answer) {
             btn.style.backgroundColor = '#072EF3';
             score++;
-            scoreDisplay.textContent = `ציון: ${score}`;
+            scoreDisplay.textContent = `תשובות נכונות (מתוך 20): ${score}`;
+
           } else {
             btn.style.backgroundColor = '#CD0101';
             const correctBtn = optionsDiv.children[q.answer];
